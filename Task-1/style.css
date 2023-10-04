@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+        background-color:lightsteelblue;
+        color: #161515;
+        text-align: center;
+        padding: 20px;
+}
+
+.intro {
+    text-align:left;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #c51616;
+    padding: 10px 20px;
+    font-size: 20px;
+    padding-top: 0.5%;
+    text-align: end;
+}
+
+.menu a:hover{
+   border: 1px solid indianred;
+   background: transparent;
+   text-align: end;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 550px;
+    height: auto;
+    margin-bottom: 20px;
+    border: 4px solid #0e0d0e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+    padding: 10px;
+    text-align: left;
+    color: #0e0d0e;
+}
+
+.skills {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project{
+    margin-bottom: 40px;
+    padding: 20px;
+    background: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #4c59af;
+}
+
+.contact {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #af574c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
